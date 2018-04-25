@@ -49,4 +49,4 @@ workflows:
           - build-job
         filters:
           branches:
-            master
+            only: master
