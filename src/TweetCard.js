@@ -40,7 +40,7 @@ class TweetCard extends Component {
   }
 
   async fetchTweets() {
-    const response = await axios.get('http://localhost:8000/tweets');
+    const response = await axios.get('/tweets');
     this.tweets = response.data;
   }
 
