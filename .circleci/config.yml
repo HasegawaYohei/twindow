@@ -39,7 +39,7 @@ jobs:
       # run tests!
       # - run: yarn test
 
-      -run:
+      - run:
         name: Build App
         command: npm run build
   -deploy:
