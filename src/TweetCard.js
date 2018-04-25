@@ -48,7 +48,6 @@ class TweetCard extends Component {
     if (this.regexpUrl.test(tweet.tweet)) {
       const href = tweet.tweet.match(this.regexpUrl)[0];
       const text = tweet.tweet.replace(this.regexpUrl, '');
-      console.log(text);
 
       tweet.href = href;
       tweet.text = text;
